@@ -5,7 +5,9 @@ http://www.cplusplus.com/forum/beginner/145093/
 
 
 
-Topological sort and detection of cycle in DAC( directed cyclic graph) using kahn's algorithm
+**Topological sort and detection of cycle in DAC( directed cyclic graph) using kahn's algorithm**
+
+
 #include<bits/stdc++.h>
 using namespace std;
 const int n=100000;
