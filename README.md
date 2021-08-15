@@ -72,7 +72,7 @@ main()
 	
 **sieve of eratosthenes**
 	
-/*#include<bits/stdc++.h>
+<#include<bits/stdc++.h>
 using namespace std;
 main()
 {
@@ -96,7 +96,7 @@ main()
   	if(arr[i]==true)
   		cout<<i<<endl;
   }
-}*/
+}>
  
 			      
 time complexity = O(n loglog(n)) 
