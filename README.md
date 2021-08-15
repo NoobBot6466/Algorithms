@@ -68,3 +68,37 @@ main()
 	
 	kahn(node);
 }
+	
+	
+**sieve of eratosthenes**
+	
+#include<bits/stdc++.h>
+using namespace std;
+main()
+{
+  int n;
+  cin>>n;
+  bool arr[n+1];
+  memset(arr,true,sizeof(arr));
+  
+  for(int i=2;i<=sqrt(n);i++)
+  {
+  	if(arr[i]==true)
+  	{
+  		for(int j=i*i;j<=n;j=j+i)
+  		{
+  			arr[j]=false;
+		}
+	}
+  }
+  for(int i=2;i<=n;i++)
+  {
+  	if(arr[i]==true)
+  		cout<<i<<endl;
+  }
+}
+ 
+			      
+time complexity = O(n loglog(n)) 
+			      where n is the size of array;
+			      
