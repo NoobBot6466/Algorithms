@@ -23,10 +23,10 @@ void kahn(int node)
 		for(auto x : adj[i])
 			indegree[x]++; ///indegree[x] =indegree[x] + 1;
 	}
-	cout << " indegree of node 0 to N respectively"<<endl;
-	for(auto x: indegree)
-		cout<< x <<" ";
-		cout<<endl;
+	//cout << " indegree of node 0 to N respectively"<<endl;
+	//for(auto x: indegree)
+	//	cout<< x <<" ";
+	//	cout<<endl;
 	for(int i=0;i<node;i++)
 	{
 		if(indegree[i]==0)
