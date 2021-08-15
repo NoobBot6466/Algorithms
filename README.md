@@ -72,7 +72,7 @@ main()
 	
 **sieve of eratosthenes**
 	
-<#include<bits/stdc++.h>
+`<#include<bits/stdc++.h>
 using namespace std;
 main()
 {
@@ -97,7 +97,7 @@ main()
   		cout<<i<<endl;
   }
 }>
- 
+ `
 			      
 time complexity = O(n loglog(n)) 
 			      where n is the size of array;
