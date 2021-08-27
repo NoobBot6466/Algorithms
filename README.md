@@ -7,7 +7,6 @@ http://www.cplusplus.com/forum/beginner/145093/
 
 **Topological sort and detection of cycle in DAC( directed cyclic graph) using kahn's algorithm**
 
-{
 #include<bits/stdc++.h>
 using namespace std;
 const int n=100000;
@@ -68,11 +67,10 @@ main()
 	
 	kahn(node);
 }
-	
-}	
+		
 **sieve of eratosthenes**
 	
-`<#include<bits/stdc++.h>
+<#include<bits/stdc++.h>
 using namespace std;
 main()
 {
@@ -96,8 +94,7 @@ main()
   	if(arr[i]==true)
   		cout<<i<<endl;
   }
-}>
- `
+}
 			      
 time complexity = O(n loglog(n)) 
 			      where n is the size of array;
